@@ -1,0 +1,32 @@
+======================================================================
+  LOG ANALYSER & ANOMALY DETECTOR — REPORT
+======================================================================
+  File      : sample_logs/demo_auth.log
+  Generated : 2026-03-18 10:48:20
+----------------------------------------------------------------------
+  Failed logins    : 50
+  Successful logins: 8
+  Sudo events      : 2
+
+BRUTE FORCE ATTEMPTS
+----------------------------------------------------------------------
+  185.234.219.42           30 attempts  users: git, admin, ubuntu, root, deploy
+  91.108.4.77              12 attempts  users: www-data, backup, mysql, postgres, jenkins
+  45.142.212.100            8 attempts  users: root
+
+CREDENTIAL STUFFING
+----------------------------------------------------------------------
+  91.108.4.77          tried 12 usernames
+  185.234.219.42       tried 5 usernames
+
+SUCCESS AFTER BRUTE FORCE
+----------------------------------------------------------------------
+  185.234.219.42       user: root  at Jan 14 03:59:59
+
+OFF-HOURS LOGINS
+----------------------------------------------------------------------
+  Jan 14 23:45:12        user: pedro           from 192.168.1.10
+  Jan 14 03:59:59        user: root            from 185.234.219.42
+  Jan 14 02:15:30        user: pedro           from 203.0.113.55
+
+======================================================================

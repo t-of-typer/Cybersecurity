@@ -1,0 +1,77 @@
+Jan 14 11:25:05 webserver01 sshd[5005]: Failed password for root from 45.142.212.100 port 60005 ssh2
+Jan 14 09:30:00 webserver01 sudo: pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 14 23:45:12 webserver01 sshd[4001]: Accepted password for pedro from 192.168.1.10 port 6000 ssh2
+Jan 14 14:09:10 webserver01 sshd[3009]: Invalid user www-data from 91.108.4.77
+Jan 14 14:06:11 webserver01 sshd[3006]: Failed password for invalid user ftp from 91.108.4.77 port 50006 ssh2
+Jan 14 03:26:26 webserver01 sshd[2026]: Failed password for admin from 185.234.219.42 port 40026 ssh2
+Jan 14 03:11:11 webserver01 sshd[2011]: Failed password for admin from 185.234.219.42 port 40011 ssh2
+Jan 14 14:04:10 webserver01 sshd[3004]: Invalid user postgres from 91.108.4.77
+Jan 14 03:07:07 webserver01 sshd[2007]: Failed password for ubuntu from 185.234.219.42 port 40007 ssh2
+Jan 14 03:18:18 webserver01 sshd[2018]: Failed password for deploy from 185.234.219.42 port 40018 ssh2
+Jan 14 09:12:11 webserver01 sshd[1001]: pam_unix(sshd:session): session opened for user pedro by (uid=0)
+Jan 14 14:10:10 webserver01 sshd[3010]: Invalid user jenkins from 91.108.4.77
+Jan 14 03:19:19 webserver01 sshd[2019]: Failed password for git from 185.234.219.42 port 40019 ssh2
+Jan 14 03:03:03 webserver01 sshd[2003]: Failed password for deploy from 185.234.219.42 port 40003 ssh2
+Jan 14 14:02:10 webserver01 sshd[3002]: Invalid user user1 from 91.108.4.77
+Jan 14 09:03:11 webserver01 sshd[1001]: pam_unix(sshd:session): session opened for user pedro by (uid=0)
+Jan 14 09:31:05 webserver01 sudo: pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 14 03:29:29 webserver01 sshd[2029]: Failed password for git from 185.234.219.42 port 40029 ssh2
+Jan 14 14:03:10 webserver01 sshd[3003]: Invalid user oracle from 91.108.4.77
+Jan 14 14:10:11 webserver01 sshd[3010]: Failed password for invalid user jenkins from 91.108.4.77 port 50010 ssh2
+Jan 14 09:09:10 webserver01 sshd[1001]: Accepted password for pedro from 192.168.1.5 port 55223 ssh2
+Jan 14 11:00:00 webserver01 sshd[5000]: Failed password for root from 45.142.212.100 port 60000 ssh2
+Jan 14 09:06:10 webserver01 sshd[1001]: Accepted password for pedro from 192.168.1.5 port 55222 ssh2
+Jan 14 03:15:15 webserver01 sshd[2015]: Failed password for root from 185.234.219.42 port 40015 ssh2
+Jan 14 03:23:23 webserver01 sshd[2023]: Failed password for deploy from 185.234.219.42 port 40023 ssh2
+Jan 14 03:17:17 webserver01 sshd[2017]: Failed password for ubuntu from 185.234.219.42 port 40017 ssh2
+Jan 14 03:08:08 webserver01 sshd[2008]: Failed password for deploy from 185.234.219.42 port 40008 ssh2
+Jan 14 09:09:11 webserver01 sshd[1001]: pam_unix(sshd:session): session opened for user pedro by (uid=0)
+Jan 14 14:09:11 webserver01 sshd[3009]: Failed password for invalid user www-data from 91.108.4.77 port 50009 ssh2
+Jan 14 03:24:24 webserver01 sshd[2024]: Failed password for git from 185.234.219.42 port 40024 ssh2
+Jan 14 03:01:01 webserver01 sshd[2001]: Failed password for admin from 185.234.219.42 port 40001 ssh2
+Jan 14 11:35:07 webserver01 sshd[5007]: Failed password for root from 45.142.212.100 port 60007 ssh2
+Jan 14 14:07:11 webserver01 sshd[3007]: Failed password for invalid user mail from 91.108.4.77 port 50007 ssh2
+Jan 14 03:14:14 webserver01 sshd[2014]: Failed password for git from 185.234.219.42 port 40014 ssh2
+Jan 14 14:01:11 webserver01 sshd[3001]: Failed password for invalid user test from 91.108.4.77 port 50001 ssh2
+Jan 14 03:21:21 webserver01 sshd[2021]: Failed password for admin from 185.234.219.42 port 40021 ssh2
+Jan 14 09:03:10 webserver01 sshd[1001]: Accepted password for pedro from 192.168.1.5 port 55221 ssh2
+Jan 14 14:08:11 webserver01 sshd[3008]: Failed password for invalid user backup from 91.108.4.77 port 50008 ssh2
+Jan 14 03:22:22 webserver01 sshd[2022]: Failed password for ubuntu from 185.234.219.42 port 40022 ssh2
+Jan 14 03:04:04 webserver01 sshd[2004]: Failed password for git from 185.234.219.42 port 40004 ssh2
+Jan 14 03:16:16 webserver01 sshd[2016]: Failed password for admin from 185.234.219.42 port 40016 ssh2
+Jan 14 03:09:09 webserver01 sshd[2009]: Failed password for git from 185.234.219.42 port 40009 ssh2
+Jan 14 14:05:10 webserver01 sshd[3005]: Invalid user mysql from 91.108.4.77
+Jan 14 14:07:10 webserver01 sshd[3007]: Invalid user mail from 91.108.4.77
+Jan 14 14:03:11 webserver01 sshd[3003]: Failed password for invalid user oracle from 91.108.4.77 port 50003 ssh2
+Jan 14 03:20:20 webserver01 sshd[2020]: Failed password for root from 185.234.219.42 port 40020 ssh2
+Jan 14 11:10:02 webserver01 sshd[5002]: Failed password for root from 45.142.212.100 port 60002 ssh2
+Jan 14 11:30:06 webserver01 sshd[5006]: Failed password for root from 45.142.212.100 port 60006 ssh2
+Jan 14 03:02:02 webserver01 sshd[2002]: Failed password for ubuntu from 185.234.219.42 port 40002 ssh2
+Jan 14 11:20:04 webserver01 sshd[5004]: Failed password for root from 45.142.212.100 port 60004 ssh2
+Jan 14 14:02:11 webserver01 sshd[3002]: Failed password for invalid user user1 from 91.108.4.77 port 50002 ssh2
+Jan 14 09:12:10 webserver01 sshd[1001]: Accepted password for pedro from 192.168.1.5 port 55224 ssh2
+Jan 14 09:06:11 webserver01 sshd[1001]: pam_unix(sshd:session): session opened for user pedro by (uid=0)
+Jan 14 03:28:28 webserver01 sshd[2028]: Failed password for deploy from 185.234.219.42 port 40028 ssh2
+Jan 14 14:00:10 webserver01 sshd[3000]: Invalid user admin from 91.108.4.77
+Jan 14 09:00:10 webserver01 sshd[1001]: Accepted password for pedro from 192.168.1.5 port 55220 ssh2
+Jan 14 03:13:13 webserver01 sshd[2013]: Failed password for deploy from 185.234.219.42 port 40013 ssh2
+Jan 14 11:05:01 webserver01 sshd[5001]: Failed password for root from 45.142.212.100 port 60001 ssh2
+Jan 14 03:59:59 webserver01 sshd[2999]: Accepted password for root from 185.234.219.42 port 41234 ssh2
+Jan 14 14:04:11 webserver01 sshd[3004]: Failed password for invalid user postgres from 91.108.4.77 port 50004 ssh2
+Jan 14 09:00:11 webserver01 sshd[1001]: pam_unix(sshd:session): session opened for user pedro by (uid=0)
+Jan 14 14:01:10 webserver01 sshd[3001]: Invalid user test from 91.108.4.77
+Jan 14 03:06:06 webserver01 sshd[2006]: Failed password for admin from 185.234.219.42 port 40006 ssh2
+Jan 14 11:15:03 webserver01 sshd[5003]: Failed password for root from 45.142.212.100 port 60003 ssh2
+Jan 14 03:27:27 webserver01 sshd[2027]: Failed password for ubuntu from 185.234.219.42 port 40027 ssh2
+Jan 14 14:05:11 webserver01 sshd[3005]: Failed password for invalid user mysql from 91.108.4.77 port 50005 ssh2
+Jan 14 03:12:12 webserver01 sshd[2012]: Failed password for ubuntu from 185.234.219.42 port 40012 ssh2
+Jan 14 14:06:10 webserver01 sshd[3006]: Invalid user ftp from 91.108.4.77
+Jan 14 14:00:11 webserver01 sshd[3000]: Failed password for invalid user admin from 91.108.4.77 port 50000 ssh2
+Jan 14 03:05:05 webserver01 sshd[2005]: Failed password for root from 185.234.219.42 port 40005 ssh2
+Jan 14 03:25:25 webserver01 sshd[2025]: Failed password for root from 185.234.219.42 port 40025 ssh2
+Jan 14 02:15:30 webserver01 sshd[4002]: Accepted password for pedro from 203.0.113.55 port 6001 ssh2
+Jan 14 03:00:00 webserver01 sshd[2000]: Failed password for root from 185.234.219.42 port 40000 ssh2
+Jan 14 14:11:10 webserver01 sshd[3011]: Invalid user tomcat from 91.108.4.77
+Jan 14 03:10:10 webserver01 sshd[2010]: Failed password for root from 185.234.219.42 port 40010 ssh2
+Jan 14 14:11:11 webserver01 sshd[3011]: Failed password for invalid user tomcat from 91.108.4.77 port 50011 ssh2
+Jan 14 14:08:10 webserver01 sshd[3008]: Invalid user backup from 91.108.4.77
