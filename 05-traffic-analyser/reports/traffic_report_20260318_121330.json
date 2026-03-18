@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "file": "sample_pcaps/demo_capture.pcap",
+    "total_packets": 256,
+    "total_bytes": 98070,
+    "total_bytes_human": "95.8 KB",
+    "duration_seconds": 7.9,
+    "analysed_at": "2026-03-18 12:13:30",
+    "elapsed": 0.02
+  },
+  "protocols": {
+    "TCP": 249,
+    "UDP": 5,
+    "DNS": 5,
+    "ARP": 2,
+    "HTTP": 1
+  },
+  "top_sources": [
+    [
+      "192.168.1.10",
+      148,
+      "90.1 KB"
+    ],
+    [
+      "93.184.216.34",
+      80,
+      "4.2 KB"
+    ],
+    [
+      "10.0.0.99",
+      26,
+      "1.4 KB"
+    ]
+  ],
+  "top_destinations": [
+    [
+      "192.168.1.10",
+      106,
+      "5.6 KB"
+    ],
+    [
+      "93.184.216.34",
+      80,
+      "4.2 KB"
+    ],
+    [
+      "203.0.113.5",
+      60,
+      "85.2 KB"
+    ],
+    [
+      "8.8.8.8",
+      5,
+      "402.0 B"
+    ],
+    [
+      "192.168.1.60",
+      2,
+      "137.0 B"
+    ],
+    [
+      "192.168.1.50",
+      1,
+      "163.0 B"
+    ]
+  ],
+  "top_dst_ports": [
+    [
+      443,
+      141
+    ],
+    [
+      53,
+      5
+    ],
+    [
+      80,
+      2
+    ],
+    [
+      21,
+      2
+    ],
+    [
+      4444,
+      2
+    ],
+    [
+      50000,
+      1
+    ],
+    [
+      50001,
+      1
+    ],
+    [
+      50002,
+      1
+    ],
+    [
+      50003,
+      1
+    ],
+    [
+      50004,
+      1
+    ],
+    [
+      50005,
+      1
+    ],
+    [
+      50006,
+      1
+    ],
+    [
+      50007,
+      1
+    ],
+    [
+      50008,
+      1
+    ],
+    [
+      50009,
+      1
+    ]
+  ],
+  "dns_queries": [
+    [
+      "google.com",
+      1
+    ],
+    [
+      "github.com",
+      1
+    ],
+    [
+      "api.example.com",
+      1
+    ],
+    [
+      "update.microsoft.com",
+      1
+    ],
+    [
+      "aGVsbG93b3JsZGhlbGxvd29ybGQ.exfiltrate.evil.com",
+      1
+    ]
+  ],
+  "cleartext": [
+    {
+      "type": "HTTP Basic Auth",
+      "src": "192.168.1.10",
+      "dst": "192.168.1.50",
+      "data": "pedro:password123",
+      "risk": "CRITICAL"
+    },
+    {
+      "type": "FTP Credentials",
+      "src": "192.168.1.10",
+      "dst": "192.168.1.60",
+      "data": "USER pedro",
+      "risk": "CRITICAL"
+    },
+    {
+      "type": "FTP Credentials",
+      "src": "192.168.1.10",
+      "dst": "192.168.1.60",
+      "data": "PASS secretpass",
+      "risk": "CRITICAL"
+    }
+  ],
+  "port_scans": [
+    {
+      "src": "93.184.216.34",
+      "dst": "192.168.1.10",
+      "ports_contacted": 80,
+      "sample_ports": [
+        50000,
+        50001,
+        50002,
+        50003,
+        50004,
+        50005,
+        50006,
+        50007,
+        50008,
+        50009
+      ],
+      "type": "Vertical port scan"
+    },
+    {
+      "src": "10.0.0.99",
+      "dst": "192.168.1.10",
+      "ports_contacted": 25,
+      "sample_ports": [
+        22,
+        23,
+        25,
+        80,
+        110,
+        135,
+        139,
+        143,
+        443,
+        445
+      ],
+      "type": "Vertical port scan"
+    }
+  ],
+  "syn_floods": [],
+  "arp_spoofing": [
+    {
+      "ip": "192.168.1.1",
+      "macs": [
+        "aa:bb:cc:dd:ee:ff",
+        "de:ad:be:ef:00:01"
+      ],
+      "type": "ARP spoofing / duplicate IP"
+    }
+  ],
+  "dns_findings": [],
+  "large_transfers": [
+    {
+      "src": "192.168.1.10",
+      "dst": "203.0.113.5",
+      "bytes": 87240,
+      "human": "85.2 KB"
+    }
+  ],
+  "dangerous_ports": [
+    {
+      "src": "10.0.0.99",
+      "dst": "192.168.1.10",
+      "port": 4444,
+      "note": "Metasploit default"
+    },
+    {
+      "src": "10.0.0.99",
+      "dst": "192.168.1.10",
+      "port": 6667,
+      "note": "IRC (botnet C2)"
+    },
+    {
+      "src": "10.0.0.99",
+      "dst": "192.168.1.10",
+      "port": 31337,
+      "note": "Elite/BackOrifice"
+    }
+  ]
+}
