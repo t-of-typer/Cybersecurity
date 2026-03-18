@@ -1,0 +1,31 @@
+=================================================================
+  NETWORK RECON TOOLKIT — SCAN REPORT
+=================================================================
+  Target    : scanme.nmap.org
+  Profile   : standard
+  Timestamp : 2026-03-18 10:28:38
+  Command   : nmap -oX - -T4 -sV -sC -O --open scanme.nmap.org
+-----------------------------------------------------------------
+
+Host : 45.33.32.156  (scanme.nmap.org)  [up]
+
+OS Detection:
+  • Linux 5.0 - 5.14  (accuracy: 100%)
+  • MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)  (accuracy: 100%)
+
+PORT       STATE        SERVICE          VERSION
+------------------------------------------------------------
+22/tcp    open         ssh              OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13
+  [ssh-hostkey]    1024 ac:00:a0:1a:82:ff:cc:55:99:dc:67:2b:34:97:6b:75 (DSA)   2048 20:3d:2d:44…
+53/tcp    open         domain           dnsmasq 2.84rc2
+  [dns-nsid]    bind.version: dnsmasq-2.84rc2…
+80/tcp    open         http             Apache httpd 2.4.7
+  [http-server-header] Apache/2.4.7 (Ubuntu)…
+  [http-favicon] Nmap Project…
+  [http-title] Go ahead and ScanMe!…
+9929/tcp    open         nping-echo       Nping echo
+31337/tcp    open         tcpwrapped       —
+
+=================================================================
+  Summary: 1 host(s) up — 5 open port(s) found
+=================================================================

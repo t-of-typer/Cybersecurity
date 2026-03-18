@@ -1,0 +1,25 @@
+=================================================================
+  NETWORK RECON TOOLKIT — SCAN REPORT
+=================================================================
+  Target    : scanme.nmap.org
+  Profile   : standard
+  Timestamp : 2026-03-18 14:30:22
+  Command   : nmap -oX - -T4 -sV -sC -O --open scanme.nmap.org
+-----------------------------------------------------------------
+
+Host : 45.33.32.156  (scanme.nmap.org)  [up]
+
+OS Detection:
+  • Linux 4.15 - 5.8  (accuracy: 95%)
+  • Linux 5.0 - 5.4  (accuracy: 92%)
+
+PORT       STATE        SERVICE          VERSION
+------------------------------------------------------------
+22/tcp     open         ssh              OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13
+80/tcp     open         http             Apache httpd 2.4.7
+9929/tcp   open         nping-echo       Nping echo
+31337/tcp  open         tcpwrapped       —
+
+=================================================================
+  Summary: 1 host(s) up — 4 open port(s) found
+=================================================================
