@@ -21,10 +21,10 @@ This repository documents my practical learning journey — every project here i
 
 | # | Project | Focus Area | Stack | Difficulty |
 |---|---------|-----------|-------|------------|
-| 01 | [Network Recon Toolkit](#01---network-recon-toolkit) | Recon / Enumeration | Python, Nmap | ⭐⭐ |
-| 02 | [Log Analyser & Anomaly Detector](#02---log-analyser--anomaly-detector) | SOC / Blue Team | Python | ⭐⭐ |
-| 03 | [Port Scanner from Scratch](#03---port-scanner-from-scratch) | Networking / TCP-IP | Python, Sockets | ⭐⭐ |
-| 04 | [Password Auditor & Breach Checker](#04---password-auditor--breach-checker) | Security Awareness | Python, API | ⭐ |
+| 01 | [Network Recon Toolkit](01-network-recon-toolkit) | Recon / Enumeration | Python, Nmap | ⭐⭐ |
+| 02 | [Log Analyser & Anomaly Detector](02-log-analyser) | SOC / Blue Team | Python | ⭐⭐ |
+| 03 | [Port Scanner from Scratch](03-port-scanner) | Networking / TCP-IP | Python, Sockets | ⭐⭐ |
+| 04 | [Password Auditor & Breach Checker](04-password-auditor) | Security Awareness | Python, API | ⭐ |
 | 05 | [Network Traffic Analyser](05-traffic-analyser) | Packet Analysis | Python, Scapy | ⭐⭐⭐ |
 
 ---
