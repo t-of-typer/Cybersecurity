@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🔍 Network Recon Toolkit
 
 A Python-based network reconnaissance tool that wraps Nmap to perform host discovery, port scanning, service/version detection, and OS fingerprinting — then generates clean, readable reports in both terminal and file formats.
