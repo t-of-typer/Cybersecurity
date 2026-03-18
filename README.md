@@ -25,7 +25,7 @@ This repository documents my practical learning journey — every project here i
 | 02 | [Log Analyser & Anomaly Detector](#02---log-analyser--anomaly-detector) | SOC / Blue Team | Python | ⭐⭐ |
 | 03 | [Port Scanner from Scratch](#03---port-scanner-from-scratch) | Networking / TCP-IP | Python, Sockets | ⭐⭐ |
 | 04 | [Password Auditor & Breach Checker](#04---password-auditor--breach-checker) | Security Awareness | Python, API | ⭐ |
-| 05 | [Network Traffic Analyser](#05---network-traffic-analyser) | Packet Analysis | Python, Scapy | ⭐⭐⭐ |
+| 05 | [Network Traffic Analyser](05-traffic-analyser) | Packet Analysis | Python, Scapy | ⭐⭐⭐ |
 
 ---
 
